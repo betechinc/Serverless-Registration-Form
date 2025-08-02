@@ -51,6 +51,12 @@ Select OPTIONS and POST
 ## Step 6: Test the Project
 Update script.js with the API_URL/register
 
+bash
+'''
+cd Frontend
+docker-compose -d up
+'''
+The application will be available on port 8080
 
 ### Enable CORS: 
 
