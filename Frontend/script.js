@@ -11,7 +11,7 @@ function submitForm() {
     const xhr = new XMLHttpRequest();
 
     // Set up request
-    xhr.open('POST', 'API_INVOKE_URL/register', true);
+    xhr.open('POST', 'https://6ydqrg1518.execute-api.us-west-2.amazonaws.com/prod/register', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
 
     // Set up response handler

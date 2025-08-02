@@ -25,12 +25,31 @@ Function Name: registration-form-function
 Runtime: Python 3.9
 
 ```
+Assign role created
 
 ## Step 4: Write Lambda Function
+Manually paste lambda script or provide s3 bucket ARN
 
 ## Step 5: Create API Gateway and Enable CORS
+Make sure to add items to DynamoDB Table(email:1, name,password)
+
+Create REST API
+API name: registration-api
+
+Create Resource
+Resource name: register (Enable CORS)
+
+Create Method
+Method type: POST
+Integration type: Lambda function
+Lambda function: [select arn]
+
+Enable CORS
+Select OPTIONS and POST
+
 
 ## Step 6: Test the Project
+Update script.js with the API_URL/register
 
 
 ### Enable CORS: 
