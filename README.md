@@ -52,9 +52,10 @@ Select OPTIONS and POST
 Update script.js with the API_URL/register
 
 bash
-'''
+'''sh
 cd Frontend
 docker-compose -d up
+
 '''
 The application will be available on port 8080
 
