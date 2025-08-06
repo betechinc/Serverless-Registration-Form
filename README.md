@@ -48,9 +48,17 @@ Lambda function: [select arn]
 Enable CORS
 Select OPTIONS and POST
 
+Deploy API > Select 'New Stage' > Stage name: prod
+
+Copy the Invooke URL 
+prod 
+|_ / 
+  |_ /register 
+     |_ post
+
 
 ## Step 6: Test the Project
-Update script.js with the API_URL/register
+Update script.js with the Invoke URL, API_URL/register
 
 bash
 '''sh
