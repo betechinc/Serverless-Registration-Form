@@ -7,6 +7,7 @@ Table Name: registration-table
 Partition key: email
 
 ```
+Make sure to add items to DynamoDB Table(email(string):1, name(string), password(string), phone(string))
 
 ## Step 2: Create IAM Role for Lambda Function
 ```sh
@@ -31,7 +32,7 @@ Assign role created
 Manually paste lambda script or provide s3 bucket ARN
 
 ## Step 5: Create API Gateway and Enable CORS
-Make sure to add items to DynamoDB Table(email(string):1, name(string), password(string), phone(string))
+Go to API Gateway
 
 Create REST API
 API name: registration-api
