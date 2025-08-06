@@ -31,7 +31,7 @@ Assign role created
 Manually paste lambda script or provide s3 bucket ARN
 
 ## Step 5: Create API Gateway and Enable CORS
-Make sure to add items to DynamoDB Table(email:1, name,password)
+Make sure to add items to DynamoDB Table(email(string):1, name(string), password(string), phone(string))
 
 Create REST API
 API name: registration-api
